@@ -40,14 +40,37 @@
 .card__review--text_small,
 .card__code--text_small {
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-less);
   line-height: 14px;
-  color: #616070;
+  color: var(--color-text-light-grey);
 }
 
 .card__name--text_medium {
-  font-size: 12px;
+  font-size: var(--font-size-medium);
   font-weight: 500;
-  line-height: 18px;
+  line-height: var(--line-height-text-medium);
   color: #060b35;
+}
+
+.card__buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 166px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: var(--color-button-blue);
+
+  font-size: 14px;
+  font-weight: var(--font-weight-big);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.card__buy:hover {
+  border: 1px solid var(--color-button-blue);
+  background-color: #fff;
+  color: var(--color-button-blue);
 }

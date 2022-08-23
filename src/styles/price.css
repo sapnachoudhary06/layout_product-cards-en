@@ -5,15 +5,15 @@
 }
 
 .price__text {
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #616070;
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-text-medium);
+  font-weight: var(--font-weight-less);
+  color: var(--color-text-light-grey);
 }
 
 .price__amount--text_large {
   font-size: 16px;
-  font-weight: 700;
-  line-height: 18px;
+  font-weight: var(--font-weight-big);
+  line-height: var(--line-height-text-medium);
   color: #060b35;
 }
