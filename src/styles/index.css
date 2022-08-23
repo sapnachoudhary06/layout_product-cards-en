@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@import "./buy.css";
+@import "./card.css";
+@import "./price.css";
+@import "./stars.css";
